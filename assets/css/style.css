@@ -134,15 +134,13 @@ a class just in case future changes are made */
     margin-bottom: 32px;
 }
 
-
 .benefitHeader {
     margin-bottom: 10px;
     text-align: center;
     color:#ffffff;
 }
 
-
-.benefit img {
+.benefitImage {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -155,13 +153,11 @@ a class just in case future changes are made */
     font-size: 16px;
 }
 
-.footer {
+#footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+/* we don't need an id on the h2 here since font size styles automatically */
