@@ -59,6 +59,13 @@ a class just in case future changes are made */
     background-position: center;
 }
 
+/* moved this up to make the CSS more sequential */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 /* using id instead of class for these sections, moved them up  */
 #search-engine-optimization {
     margin-bottom: 20px;
@@ -99,48 +106,19 @@ a class just in case future changes are made */
     margin-left: 25px;
 }
 
-/* #social-media-marketing img {
-    max-height: 200px;
-} */
 
-#search-engine-optimization h2 {
+.contentHeadline {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-p {
+.contentText {
     font-size: 16px;
 }
 
 
-
-/* .float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-} */
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
+.benefitAside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -151,55 +129,31 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* took the text out of this class and into a separate class for just the text */
+.benefit {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefitHeader {
     margin-bottom: 10px;
     text-align: center;
+    color:#ffffff;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* added a class for benefitText  */
+
+.benefitText {
+    color: #ffffff;
+    font-size: 16px;
 }
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
 
 .footer {
     padding: 30px;
