@@ -35,7 +35,7 @@ a class just in case future changes are made */
     font-size: 20px;
 }
 
-.header div ul {
+#linksMenu {
     list-style-type: none;
 }
 
@@ -44,15 +44,12 @@ a class just in case future changes are made */
     margin-left: 25px;
 }
 
-a {
+.linksItem {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* moved this up to make the CSS more sequential */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +58,12 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+p {
+    font-size: 16px;
+}
+
+
 
 .float-left {
     float: left;
