@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <div class="header">
         <!-- changed seo from a class to an id since used only once -->
         <h1 class="companyName">Hori<span id="seo">seo</span>n</h1>
@@ -16,7 +17,7 @@
             <!-- I gave the unordered list an id just in case any future ul is added" -->
             <ul id="linksMenu">
                 <!-- each navbar link is under the same class, allows for other "a" links to be 
-                included elsewhere in the page -->
+                included elsewhere in the page with different styling-->
                 <li>
                     <a class="linksItem" href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -29,26 +30,31 @@
             </ul>
         </div>
     </div>
+
     <div class="hero"></div>
+
     <div class="content">
         <!-- added an id here to fix the broken link in the navigation -->
-        <div id="search-engine-optimization" class="search-engine-optimization">
-            <!-- Alt attributes have been added to all images to comply with the ADA act -->
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
+        <!-- took out the class designations because it's redundant and not needed -->
+        <div id="search-engine-optimization" >
+            <!-- alt attributes have been added to all images to comply with the ADA act -->
+           <!-- classes created for in case more sections are ever added in here -->
+           <!-- combined float classes into the new classes -->
+            <img class= "contentImageLeft" src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management" class="float-right" />
+        <div id="online-reputation-management">
+            <img class= "contentImageRight" src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management"/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left" />
+        <div id="social-media-marketing" >
+            <img class= "contentImageLeft" src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
