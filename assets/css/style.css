@@ -8,66 +8,47 @@ body {
     background-color: #d9dcd6;
 }
 
-/* I used the element name "header" instead of the class that was originally here.
-I combined what was in the .header and ".header div" css into one. */
-
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
 
-h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-/* I combined .header div and .header div ul here. */
-
-ul {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.header div ul {
     list-style-type: none;
 }
 
-
- /* This was under .header div ul li which I thought was really clunky, can just use the element I think. */   
-
-li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
-
-/* All of the a elements had the same css so I kept that one as is */   
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-
-/* Same with all of the p elements */  
-
 p {
     font-size: 16px;
 }
-
-
-/* I didn't want to mess with the .hero class */  
 
 .hero {
     height: 800px;
@@ -78,54 +59,23 @@ p {
     background-position: center;
 }
 
-/* I removed the class "content"*/
-
-/* The ids "search-engine-optimization" "online-reputation-management" and "social-media-marketing" were using the same css except for float
-so I combined them into the section element*/
-
-section {
-    
-        margin-bottom: 20px;
-        padding: 50px;
-        height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #0072bb;
-        color: #ffffff;
-    }
-}
-
-
-/* Then I used specific float css for the classes*/
-.section1 {
+.float-left {
     float: left;
+    margin-right: 25px;
 }
 
-.section2 {
+.float-right {
     float: right;
+    margin-left: 25px;
 }
 
-.section3 {
-    float: left;
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-
-/* Since all of the h2 were the same I combined them*/
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* All of the images in this section had the same CSS spec so they were put into a class*/
-
-.images1 {
-    max-height: 200px;
-}
-
-/* This was formerly a class, changed to element and incorporated other redundant css from
-. benefit-lead, .benefit-brand, and .benefit-cost*/
-
-Aside {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -134,31 +84,117 @@ Aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* since all of the H3 were the same I combined them*/
-h3 {
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* All of the images in this section had the same CSS spec so they were put into a class*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-.images2 {
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 
-/* The class "footer" was changed to an element*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+.footer h2 {
     font-size: 20px;
 }
