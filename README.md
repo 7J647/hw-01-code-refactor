@@ -18,10 +18,19 @@ Perhaps most importantly, we have updated the files to include alt identifiers t
 Installing this project would be as simple as replacing the HTML and CSS files on the website's server.
 
 
+## URL
+
+The URL for this website is https://7j647.github.io/hw-01-code-refactor/
+
+
+## Screen Shot
+
+<img src ="./ScreenShotHomework1.png" alt= "Homework 1 screen shot">
+
+
 ## Credits
 
 With thanks to Coach Jonathan and his team and all in Pod 4 who helped with ideas and troubleshooting.
-
 
 
 ## License
