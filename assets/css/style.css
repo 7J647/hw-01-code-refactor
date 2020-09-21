@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+#companyLogo{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -27,7 +27,8 @@ a class just in case future changes are made */
     color: #d9dcd6;
 }
 
-.header div {
+/* gave this a more descriptive id */
+#navbar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,11 +36,13 @@ a class just in case future changes are made */
     font-size: 20px;
 }
 
+/* gave this a specific id */
 #linksMenu {
     list-style-type: none;
+   
 }
-
-.header div ul li {
+/* gave this a more specific class */
+.menuLinks {
     display: inline-block;
     margin-left: 25px;
 }
@@ -106,12 +109,10 @@ a class just in case future changes are made */
     margin-left: 25px;
 }
 
-
 .contentHeadline {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 .contentText {
     font-size: 16px;
