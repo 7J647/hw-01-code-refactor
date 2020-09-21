@@ -27,7 +27,7 @@ a class just in case future changes are made */
     color: #d9dcd6;
 }
 
-/* gave this a more descriptive id */
+/* gave this a more descriptive id rather than a header class */
 #navbar {
     padding-top: 15px;
     margin-right: 20px;
@@ -63,7 +63,7 @@ a class just in case future changes are made */
 }
 
 /* moved this up to make the CSS more sequential */
-.content {
+#mainContent {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -118,8 +118,7 @@ a class just in case future changes are made */
     font-size: 16px;
 }
 
-
-.benefitAside {
+#benefitAside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -154,7 +153,7 @@ a class just in case future changes are made */
     font-size: 16px;
 }
 
-#footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

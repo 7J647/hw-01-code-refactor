@@ -11,7 +11,8 @@
 <body>
 
     <!-- changed the name of this to be more specific to the company name, and made it an id -->
-    <div id="companyLogo">
+    <!-- changed it from a div to more descriptive "header" -->
+    <header id="companyLogo">
         <!-- changed seo from a class to an id since used only once -->
         <h1 class="companyName">Hori<span id="seo">seo</span>n</h1>
         <div id="navbar">
@@ -30,14 +31,17 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
 
     <div class="hero"></div>
 
-    <div class="content">
+    <!-- gave this a more descriptive name and an id-->
+    <div id="mainContent">
+
         <!-- added an id here to fix the broken link in the navigation -->
         <!-- took out the class designations because it's redundant and not needed -->
-        <div id="search-engine-optimization" >
+        <!-- called each of these divs a section instead of just a div -->
+        <section id="search-engine-optimization" >
             <!-- alt attributes have been added to all images to comply with the ADA act -->
            <!-- classes created for in case more sections are ever added in here -->
            <!-- combined float classes into the new classes -->
@@ -48,29 +52,32 @@
             <p class="contentText">
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management">
+        </section>
+
+        <section id="online-reputation-management">
             <img class= "contentImageRight" src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management"/>
             <h2 class= "contentHeadline">Online Reputation Management</h2>
             <p class="contentText">
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" >
+        </section>
+
+        <section id="social-media-marketing" >
             <img class= "contentImageLeft" src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left" />
             <h2 class= "contentHeadline">Social Media Marketing</h2>
             <p class="contentText">
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
+        </section>
+
     </div>
 
-    <!-- I changed the name of this section -->
-    <div class="benefitAside">
+    <!-- I changed this from just a div to an "aside" and gave it an id-->
+    <div id="benefitAside">
             <!-- I left off here -->
         
-        <!-- combined all of the sections into a class in case more sections are added -->
-         <div class="benefit">
+        <!-- called all of these divs "sections" and combined all of the sections into a class in case more sections are added -->
+         <section class="benefit">
             <!-- combined all of the h3 from this section into a class -->
             <h3 class="benefitHeader">Lead Generation</h3>
             <!-- combined all of the img from this section into a class -->
@@ -79,31 +86,34 @@
             <p class="benefitText">
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit">
+        </section>
+
+        <section class="benefit">
             <h3 class="benefitHeader">Brand Awareness</h3>
             <img class="benefitImage" src="./assets/images/brand-awareness.png" alt="Brand Awareness" />
             <p class="benefitText">
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit">
+        </section>
+
+        <section class="benefit">
             <h3 class="benefitHeader">Cost Management</h3>
             <!-- took out the close image tag, not needed because images are self-closing -->
             <img class="benefitImage" src="./assets/images/cost-management.png" alt="Cost Management" />
             <p class="benefitText">
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
+        </section>
+
     </div>
    
-    <!-- gave this an id since just one footer -->
-    <div id="footer">
+    <!-- called this a footer, doesn't need an id-->
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
