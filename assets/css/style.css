@@ -15,12 +15,15 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* could have used just h1 here since the only h1 on the page but gave this 
+a class just in case future changes are made */
+.companyName {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* moved this up to be together with the rest of the header */
+#seo {
     color: #d9dcd6;
 }
 
